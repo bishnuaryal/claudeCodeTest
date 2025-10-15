@@ -128,6 +128,33 @@ This project uses ESLint with the following rules:
 4. Run `npm run lint:fix` to ensure code follows standards
 5. The OpenAPI validator will automatically enforce the contract at runtime
 
+## Git Workflow
+
+This project uses a **branch-based workflow** with pull requests. See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+
+### Quick Start
+
+```bash
+# Create feature branch
+git checkout -b feature/your-feature
+
+# Make changes, commit, push
+git add .
+git commit -m "feat: your description"
+git push -u origin feature/your-feature
+
+# Create pull request
+gh pr create
+```
+
+### Important Rules
+
+- **Never push directly to main branch**
+- Always create a feature branch for changes
+- Run `npm run lint:fix` before committing
+- Create pull requests for code review
+- Delete feature branches after merging
+
 ## Known Limitations
 
 - **In-memory storage**: Data is lost on server restart (suitable for demos only)
