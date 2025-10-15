@@ -1,5 +1,6 @@
 // server.js
 // This is a change on the MAIN branch
+// Express.js Todo API with OpenAPI validation
 const express = require('express');
 const YAML = require('yamljs');
 const swaggerUi = require('swagger-ui-express');
