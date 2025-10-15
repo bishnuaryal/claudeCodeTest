@@ -10,6 +10,7 @@ const OpenApiValidator = require('express-openapi-validator');
 const app = express();
 app.use(express.json());
 
+// Configuration - API setup
 // OpenAPI 読み込み & Swagger UI
 const apiSpecPath = './openapi.yaml';
 const apiSpec = YAML.load(apiSpecPath);
