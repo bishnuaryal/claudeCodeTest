@@ -1,4 +1,5 @@
 // server.js
+// Express.js Todo API with OpenAPI validation
 const express = require('express');
 const YAML = require('yamljs');
 const swaggerUi = require('swagger-ui-express');
